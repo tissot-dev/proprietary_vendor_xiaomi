@@ -36,3 +36,5 @@ PRODUCT_PACKAGES += \
     qdcm_calib_data_nt35532_fhd_video_mode_dsi_panel \
     qdcm_calib_data_nt35596_tianma_fhd_video_mode_dsi_panel \
     qdcm_calib_data_otm1911_fhd_video_mode_dsi_panel
+
+$(call inherit-product, vendor/xiaomi/tissot/tissot-vendor-blobs.mk)
