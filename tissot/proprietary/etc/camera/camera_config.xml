@@ -1,5 +1,5 @@
 <!--
-  Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+  Copyright (c) 2015-2017 Qualcomm Technologies, Inc.
   All Rights Reserved.
   Confidential and Proprietary - Qualcomm Technologies, Inc.
 -->
@@ -85,61 +85,7 @@ LensInfo : Information of the lens present in the module.
 
 <CameraConfigurationRoot>
 
-  <CameraModuleConfig>
-    <CameraId>0</CameraId>
-    <SensorName>ov12a10</SensorName>
-    <ActuatorName>dw9763_ov12a10</ActuatorName>
-    <EepromName>ov12a10</EepromName>
-    <FlashName>pmic</FlashName>
-    <ChromatixName>ov12a10_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
-    <MountAngle>360</MountAngle>
-    <CSIInfo>
-      <CSIDCore>0</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>3.81</FocalLength>
-      <FNumber>2.2</FNumber>
-      <TotalFocusDistance>2.64</TotalFocusDistance>
-      <HorizontalViewAngle>66.0</HorizontalViewAngle>
-      <VerticalViewAngle>52.0</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-      <LensType>WIDE</LensType>
-    </LensInfo>
-  </CameraModuleConfig>
-
-  <CameraModuleConfig>
-    <CameraId>1</CameraId>
-    <SensorName>ov13880</SensorName>
-    <ActuatorName>dw9763_ov13880</ActuatorName>
-    <EepromName>ov13880</EepromName>
-    <FlashName>pmic</FlashName>
-    <ChromatixName>ov13880_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK_AUX</Position>
-    <MountAngle>360</MountAngle>
-    <CSIInfo>
-      <CSIDCore>1</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>5.99</FocalLength>
-      <FNumber>2.6</FNumber>
-      <TotalFocusDistance>6.9</TotalFocusDistance>
-      <HorizontalViewAngle>38.9</HorizontalViewAngle>
-      <VerticalViewAngle>29.5</VerticalViewAngle>
-      <MinFocusDistance>0.5</MinFocusDistance>
-      <LensType>TELE</LensType>
-    </LensInfo>
-  </CameraModuleConfig>
-
-  <CameraModuleConfig>
+<CameraModuleConfig>
     <CameraId>0</CameraId>
     <SensorName>ov12a10</SensorName>
     <ActuatorName>dw9763_ofilm_ov12a10</ActuatorName>
@@ -301,7 +247,7 @@ LensInfo : Information of the lens present in the module.
     </LensInfo>
   </CameraModuleConfig>
 
-  <CameraModuleConfig>
+<CameraModuleConfig>
     <CameraId>2</CameraId>
     <SensorName>s5k5e8_ofilm</SensorName>
     <EepromName>ofilm_s5k5e8</EepromName>
@@ -325,28 +271,28 @@ LensInfo : Information of the lens present in the module.
     </LensInfo>
   </CameraModuleConfig>
 
-  <CameraModuleConfig>
-	<CameraId>2</CameraId>
-	<SensorName>ov5675_qtech</SensorName>
-  <EepromName>qtech_ov5675</EepromName>
-	<ChromatixName>ov5675_qtech_chromatix</ChromatixName>
-	<ModesSupported>1</ModesSupported>
-	<Position>FRONT</Position>
-	<MountAngle>270</MountAngle>
-	<CSIInfo>
-	  <CSIDCore>2</CSIDCore>
-	  <LaneMask>0x7</LaneMask>
-	  <LaneAssign>0x4320</LaneAssign>
-	  <ComboMode>0</ComboMode>
+ <CameraModuleConfig>
+        <CameraId>2</CameraId>
+        <SensorName>ov5675_qtech</SensorName>
+	<EepromName>qtech_ov5675</EepromName>
+        <ChromatixName>ov5675_qtech_chromatix</ChromatixName>
+        <ModesSupported>1</ModesSupported>
+        <Position>FRONT</Position>
+        <MountAngle>270</MountAngle>
+        <CSIInfo>
+          <CSIDCore>2</CSIDCore>
+          <LaneMask>0x7</LaneMask>
+          <LaneAssign>0x4320</LaneAssign>
+          <ComboMode>0</ComboMode>
     </CSIInfo>
-	<LensInfo>
-	  <FocalLength>2.46</FocalLength>
-	  <FNumber>2.0</FNumber>
-	  <TotalFocusDistance>1.97</TotalFocusDistance>
-	  <HorizontalViewAngle>62.7</HorizontalViewAngle>
-	  <VerticalViewAngle>49.0</VerticalViewAngle>
-	  <MinFocusDistance>0.1</MinFocusDistance>
-	</LensInfo>
+        <LensInfo>
+          <FocalLength>2.46</FocalLength>
+          <FNumber>2.0</FNumber>
+          <TotalFocusDistance>1.97</TotalFocusDistance>
+          <HorizontalViewAngle>62.7</HorizontalViewAngle>
+          <VerticalViewAngle>49.0</VerticalViewAngle>
+          <MinFocusDistance>0.1</MinFocusDistance>
+        </LensInfo>
   </CameraModuleConfig>
 
 </CameraConfigurationRoot>
